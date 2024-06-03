@@ -2,6 +2,8 @@ package com.tapyou.tests;
 
 import com.tapyou.BaseSetUp;
 import com.tapyou.heplers.data.UserIdListResponse;
+import io.qameta.allure.Feature;
+import io.qameta.allure.Story;
 import io.restassured.response.Response;
 import org.assertj.core.api.Assertions;
 import org.testng.annotations.DataProvider;
@@ -13,6 +15,8 @@ import static io.restassured.module.jsv.JsonSchemaValidator.matchesJsonSchemaInC
 import static org.apache.http.HttpStatus.SC_BAD_REQUEST;
 import static org.hamcrest.MatcherAssert.assertThat;
 
+@Feature("User tests")
+@Story("GET /api/test/user/{id}")
 public class GetUsersListTests extends BaseSetUp {
 
     @DataProvider(name = "positive")

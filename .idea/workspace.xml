@@ -4,28 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f09427f4-9fb4-4c93-90ac-6e3b03895782" name="Changes" comment="Added parallel tests by id and by gender.">
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/2/42e0ea1688f08b0e1698cde90a171c9ae3e56f45" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/7/6735952e65f55e95979b72fb983e6ed7c785b18c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/f/8ff4ea560a70db9a8a5672ed71fdf531994db8ff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/1/a1494163dba02dcee8da59a72b8caccdd90d5d3c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/c/cc255568c41907284c663bbd188074456134ebd7" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/1/e1531608de16ae21f2fd200f94bd3cbb1848bb90" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/7/e78cd516240f4de1c292a86f25d79ef4ba58b320" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/f/ef050c89765a22825de8978ec87c292be4ed3802" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/4/2/42e0ea1688f08b0e1698cde90a171c9ae3e56f45" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/6/7/6735952e65f55e95979b72fb983e6ed7c785b18c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/8/f/8ff4ea560a70db9a8a5672ed71fdf531994db8ff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/a/1/a1494163dba02dcee8da59a72b8caccdd90d5d3c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/c/c/cc255568c41907284c663bbd188074456134ebd7" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/e/1/e1531608de16ae21f2fd200f94bd3cbb1848bb90" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/e/7/e78cd516240f4de1c292a86f25d79ef4ba58b320" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/e/f/ef050c89765a22825de8978ec87c292be4ed3802" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+    <list default="true" id="f09427f4-9fb4-4c93-90ac-6e3b03895782" name="Changes" comment="Fixed tests.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/tapyou/heplers/UserHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/tapyou/heplers/UserHelper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/tapyou/tests/GetUserByIdTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/tapyou/tests/GetUserByIdTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/jsonSchemes/user.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/jsonSchemes/user.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/tapyou/tests/GetUsersListTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/tapyou/tests/GetUsersListTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +70,7 @@
       <recent name="C:\Users\Alex Z\IdeaProjects\sobes\api-ch-four\src\test" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.GetUserByIdTests.getUserByIdNegativeTest">
+  <component name="RunManager" selected="TestNG.GetUserByIdTests.getUserByIdTest">
     <configuration name="C:/Users/Alex Z/IdeaProjects/sobes/api-ch-four/src/test/resources/cofiguration/testNg/test_run.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="api-ch-four" />
       <shortenClasspath name="NONE" />
@@ -219,9 +202,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.GetUserByIdTests.getUserByIdTest" />
         <item itemvalue="TestNG.GetUserByIdTests.getUserByIdNegativeTest" />
         <item itemvalue="TestNG.C:/Users/Alex Z/IdeaProjects/sobes/api-ch-four/src/test/resources/cofiguration/testNg/test_run.xml" />
-        <item itemvalue="TestNG.GetUserByIdTests.getUserByIdTest" />
         <item itemvalue="TestNG.GetUsersListTests" />
       </list>
     </recent_temporary>
@@ -251,7 +234,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717403459108</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added parallel tests by id and by gender.">
+      <option name="closed" value="true" />
+      <created>1717407277895</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1717407277896</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -267,8 +258,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added simple test to check framework" />
-    <MESSAGE value="Added parallel tests by id and by gender." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added parallel tests by id and by gender." />
+    <MESSAGE value="Fixed tests." />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed tests." />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
 </project>

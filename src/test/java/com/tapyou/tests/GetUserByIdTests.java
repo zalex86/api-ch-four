@@ -4,6 +4,8 @@ import com.tapyou.BaseSetUp;
 import com.tapyou.heplers.data.User;
 import com.tapyou.heplers.data.UserIdListResponse;
 import com.tapyou.heplers.data.UserResponse;
+import io.qameta.allure.Feature;
+import io.qameta.allure.Story;
 import io.restassured.response.Response;
 import org.assertj.core.api.Assertions;
 import org.hamcrest.Matchers;
@@ -24,6 +26,8 @@ import static org.apache.http.HttpStatus.SC_BAD_REQUEST;
 import static org.apache.http.HttpStatus.SC_OK;
 import static org.hamcrest.MatcherAssert.assertThat;
 
+@Feature("User tests")
+@Story("GET /api/test/users")
 public class GetUserByIdTests extends BaseSetUp {
 
     private static List<Integer> maleIdList;
@@ -52,7 +56,8 @@ public class GetUserByIdTests extends BaseSetUp {
                 .setErrorCode(0)
                 .setIsSuccess(true)
                 .setUser(new User()
-                        .setGender(gender));
+                        .setGender(gender)
+                        .setId(id));
 
         Response response = verifyCode(userHelper.getUserById(String.valueOf(id)), SC_OK);
         assertThat("User Json Scheme Assertion", response.getBody().asString(),
@@ -61,7 +66,7 @@ public class GetUserByIdTests extends BaseSetUp {
         var userResponse = response.as(UserResponse.class);
 
         Assertions.assertThat(userResponse).usingRecursiveComparison()
-                .comparingOnlyFields("errorCode", "isSuccess", "user.gender")
+                .comparingOnlyFields("errorCode", "isSuccess", "user.gender", "user.id")
                 .isEqualTo(userModel);
     }
 

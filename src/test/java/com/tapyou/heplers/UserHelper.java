@@ -27,7 +27,7 @@ public class UserHelper {
         return new Requests().getRequest(SERVER + API_TEST + USERS, params);
     }
 
-    @Step("Get user by id: {0} GET /api/test/users")
+    @Step("Get user by id: {0} GET /api/test/user/{id}")
     public Response getUserById(String id) {
         return new Requests().getRequest(SERVER + API_TEST + "user/" + id, new HashMap<>());
     }
