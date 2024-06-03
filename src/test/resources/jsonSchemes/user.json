@@ -1,0 +1,50 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "isSuccess": {
+      "type": "boolean"
+    },
+    "errorCode": {
+      "type": "integer"
+    },
+    "errorMessage": {
+      "type": ["string","null"]
+    },
+    "user": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "name": {
+          "type": "string"
+        },
+        "gender": {
+          "type": "string"
+        },
+        "age": {
+          "type": "integer"
+        },
+        "city": {
+          "type": "string"
+        },
+        "registrationDate": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "name",
+        "gender",
+        "age",
+        "city",
+        "registrationDate"
+      ]
+    }
+  },
+  "required": [
+    "isSuccess",
+    "errorCode"
+  ]
+}

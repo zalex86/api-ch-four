@@ -5,24 +5,41 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f09427f4-9fb4-4c93-90ac-6e3b03895782" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/2/42e0ea1688f08b0e1698cde90a171c9ae3e56f45" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/4/442292b8a7efeabbe4cc176709b833b1792140ec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/c/bc1d7695e4b3654aa3f1c8efe7a2b52a3d70aba4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/7/6735952e65f55e95979b72fb983e6ed7c785b18c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/f/8ff4ea560a70db9a8a5672ed71fdf531994db8ff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/1/a1494163dba02dcee8da59a72b8caccdd90d5d3c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/c/cc255568c41907284c663bbd188074456134ebd7" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/1/e1531608de16ae21f2fd200f94bd3cbb1848bb90" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/7/e78cd516240f4de1c292a86f25d79ef4ba58b320" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/f/ef050c89765a22825de8978ec87c292be4ed3802" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/4/2/42e0ea1688f08b0e1698cde90a171c9ae3e56f45" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/4/4/442292b8a7efeabbe4cc176709b833b1792140ec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/b/c/bc1d7695e4b3654aa3f1c8efe7a2b52a3d70aba4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/6/7/6735952e65f55e95979b72fb983e6ed7c785b18c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/8/f/8ff4ea560a70db9a8a5672ed71fdf531994db8ff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/a/1/a1494163dba02dcee8da59a72b8caccdd90d5d3c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/c/c/cc255568c41907284c663bbd188074456134ebd7" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/e/1/e1531608de16ae21f2fd200f94bd3cbb1848bb90" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/e/7/e78cd516240f4de1c292a86f25d79ef4ba58b320" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/e/f/ef050c89765a22825de8978ec87c292be4ed3802" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/tapyou/BaseSetUp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/tapyou/tests/UsersTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/testNg/test_run.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/tapyou/heplers/Requests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/tapyou/heplers/RestRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/tapyou/heplers/TestUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/tapyou/heplers/UserHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/tapyou/heplers/data/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/tapyou/heplers/data/UserIdListResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/tapyou/heplers/data/UserResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/tapyou/heplers/data/enums/Gender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/tapyou/tests/GetUserByIdTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/tapyou/tests/GetUsersListTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/jsonSchemes/user.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/jsonSchemes/users.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/tapyou/BaseSetUp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/tapyou/BaseSetUp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/tapyou/tests/UsersTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/testNg/test_run.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/cofiguration/testNg/test_run.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,12 +49,22 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 6
@@ -55,32 +82,120 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/Alex Z/IdeaProjects/sobes/api-ch-four"
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "git-widget-placeholder": "GetTests",
+    "last_opened_file_path": "C:/Users/Alex Z/IdeaProjects/sobes/api-ch-four/src/test/resources"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.tapyou.heplers.data" />
+      <recent name="com.tapyou.heplers" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Alex Z\IdeaProjects\sobes\api-ch-four" />
       <recent name="C:\Users\Alex Z\IdeaProjects\sobes\api-ch-four\src\test\resources" />
+      <recent name="C:\Users\Alex Z\IdeaProjects\sobes\api-ch-four" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Alex Z\IdeaProjects\sobes\api-ch-four\src\test\resources\cofiguration" />
       <recent name="C:\Users\Alex Z\IdeaProjects\sobes\api-ch-four\src\test" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration name="UsersTests.simpleCheck" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.C:/Users/Alex Z/IdeaProjects/sobes/api-ch-four/src/test/resources/cofiguration/testNg/test_run.xml">
+    <configuration name="C:/Users/Alex Z/IdeaProjects/sobes/api-ch-four/src/test/resources/cofiguration/testNg/test_run.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="api-ch-four" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/cofiguration/testNg/test_run.xml" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="VM_PARAMETERS" value="-Dserver=&quot;https://hr-challenge.dev.tapyou.com/&quot;" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GetUserByIdTests.getUserByIdTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="api-ch-four" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.tapyou.tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="SUITE_NAME" value="" />
       <option name="PACKAGE_NAME" value="com.tapyou.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.tapyou.tests.UsersTests" />
-      <option name="METHOD_NAME" value="simpleCheck" />
+      <option name="MAIN_CLASS_NAME" value="com.tapyou.tests.GetUserByIdTests" />
+      <option name="METHOD_NAME" value="getUserByIdTest" />
+      <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-Dserver=&quot;https://hr-challenge.dev.tapyou.com/&quot;" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GetUsersListTests" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="api-ch-four" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tapyou.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="com.tapyou.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.tapyou.tests.GetUsersListTests" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-Dserver=&quot;https://hr-challenge.dev.tapyou.com/&quot;" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-Dserver=&quot;https://hr-challenge.dev.tapyou.com/&quot;" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
       <properties />
       <listeners />
       <method v="2">
@@ -89,7 +204,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.UsersTests.simpleCheck" />
+        <item itemvalue="TestNG.C:/Users/Alex Z/IdeaProjects/sobes/api-ch-four/src/test/resources/cofiguration/testNg/test_run.xml" />
+        <item itemvalue="TestNG.GetUserByIdTests.getUserByIdTest" />
+        <item itemvalue="TestNG.GetUsersListTests" />
       </list>
     </recent_temporary>
   </component>
@@ -102,6 +219,31 @@
       <option name="presentableId" value="Default" />
       <updated>1717398255020</updated>
     </task>
+    <task id="LOCAL-00001" summary="Added simple test to check framework">
+      <option name="closed" value="true" />
+      <created>1717399061225</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1717399061225</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added simple test to check framework" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added simple test to check framework" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
 </project>
