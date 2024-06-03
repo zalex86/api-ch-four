@@ -78,10 +78,10 @@ public class GetUserByIdTests extends BaseSetUp {
     public void getUserByIdNegativeTest(String ids) {
         Response response = verifyCode(userHelper.getUserById(ids), SC_BAD_REQUEST);
         assertThat("User Json Scheme Assertion", response.getBody().asString(),
-                matchesJsonSchemaInClasspath("jsonSchemes/users.json"));
+                matchesJsonSchemaInClasspath("jsonSchemes/user.json"));
 
-        UserIdListResponse userIdListResponse = response.as(UserIdListResponse.class);
-        Assertions.assertThat(userIdListResponse.getIsSuccess()).isFalse();
+        with(response.asString())
+                .assertThat("$.isSuccess", Matchers.is(false));
     }
 
     @Test(description = "Get user by not existing id test")
@@ -93,9 +93,9 @@ public class GetUserByIdTests extends BaseSetUp {
 
         Response response = verifyCode(userHelper.getUserById(String.valueOf(maxId+1)), SC_BAD_REQUEST);
         assertThat("User Json Scheme Assertion", response.getBody().asString(),
-                matchesJsonSchemaInClasspath("jsonSchemes/users.json"));
+                matchesJsonSchemaInClasspath("jsonSchemes/user.json"));
         with(response.asString())
-                .assertThat("$.isSuccessful", Matchers.is(false));
+                .assertThat("$.isSuccess", Matchers.is(false));
 
     }
 
