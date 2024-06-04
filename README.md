@@ -9,4 +9,4 @@ To run local tests it needs to add the following text to
 ```
 
 Allure reports can be checked in
-**Maven>api-automation-challenge>plugins>allure>allure:serve** after tests were finished.
+**Maven>api-ch-four>plugins>allure>allure:serve** after tests were finished.
